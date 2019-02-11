@@ -1,0 +1,51 @@
+{
+  "name": "frankrs.dk",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "http://soirs.github.io/",
+  "author": "Frank Richard Semakula <hire@frankrs.dk>",
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "classnames": "^2.2.6",
+    "eslint-loader": "^2.1.1",
+    "gatsby": "^2.0.118",
+    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-netlify": "^2.0.10",
+    "gatsby-plugin-offline": "^2.0.23",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sass": "^2.0.10",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "source-map-explorer": "^1.6.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js src/**/*.jsx'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --write '{./,__{tests,mocks}__}/**/*.+(js|jsx)'",
+    "deploy": "gatsby build && gh-pages -d public",
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "feather-icons": "^4.7.3",
+    "gatsby-plugin-eslint": "^2.0.1",
+    "gatsby-plugin-google-analytics": "^2.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
