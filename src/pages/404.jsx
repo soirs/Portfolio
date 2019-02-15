@@ -1,11 +1,15 @@
 import React from 'react';
 
+import { Link } from 'gatsby';
 import Fullscreen from '../components/fullscreen';
 import ContentPage from '../components/content-page';
 import styles from './index.module.css';
 
 const NotFoundPage = () => (
   <div>
+    <h2 className="underline">
+      <Link to="/">Back to my Portfolio</Link>
+    </h2>
     <Fullscreen>
       <ContentPage>
         <div className={styles.frawn}>

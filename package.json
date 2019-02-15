@@ -2,22 +2,22 @@
   "name": "frankrs.dk",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://soirs.github.io/",
+  "homepage": "https://frankrs.dk",
   "author": "Frank Richard Semakula <hire@frankrs.dk>",
   "dependencies": {
     "animejs": "^3.0.1",
     "classnames": "^2.2.6",
-    "eslint-loader": "^2.1.1",
-    "gatsby": "^2.0.118",
-    "gatsby-plugin-manifest": "^2.0.5",
+    "eslint-loader": "^2.1.2",
+    "gatsby": "^2.1.2",
+    "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-netlify": "^2.0.10",
     "gatsby-plugin-offline": "^2.0.23",
-    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sass": "^2.0.10",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
-    "source-map-explorer": "^1.6.0"
+    "source-map-explorer": "^1.7.0"
   },
   "keywords": [
     "gatsby"
@@ -30,18 +30,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettify": "prettier --write '{./,__{tests,mocks}__}/**/*.+(js|jsx)'",
     "deploy": "gatsby build && gh-pages -d public",
-    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "update": "ncu -u -a && npm install && npm update && ncu -u"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.7.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
-    "feather-icons": "^4.7.3",
-    "gatsby-plugin-eslint": "^2.0.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "feather-icons": "^4.17.0",
+    "gatsby-plugin-eslint": "^2.0.4",
     "gatsby-plugin-google-analytics": "^2.0.13"
   },
   "repository": {

@@ -1,12 +1,13 @@
 @import '../../css/variables.css';
 
 .some {
-  border-top: 4px solid white;
-    background: var(--colorBlack);
-    color: var(--colorWhite);
-    /* width: calc(70vw); */
-    margin-top: 15vh;
+  border-top: 4px solid var(--colorWhite);
+  background: var(--colorBlack);
+  color: var(--colorWhite);
+  /* width: calc(70vw); */
+  margin-top: 15vh;
 }
+
 .email {
   font-size: 1.333rem;
 }
@@ -18,12 +19,12 @@
 .social {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-top: 10px;
   display: inline-block;
 }
 
-.social > * {
-height: 25px;
+.social>* {
+  height: 25px;
 }
 
 .social li {
@@ -31,7 +32,9 @@ height: 25px;
   margin-right: calc(var(--gutter) * 2.5);
 }
 
-/* .social li:hover {
-  border-bottom: 1px solid;
-} */
-
+.social li a img:hover {
+  padding-bottom: 2px;
+  border-bottom: 2px solid;
+  transform: scale(1.3);
+  transition: all 0.2s ease-in-out;
+}

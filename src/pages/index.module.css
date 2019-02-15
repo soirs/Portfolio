@@ -5,7 +5,6 @@
 .intro {
     background: var(--colorBlack);
     color: var(--colorWhite);
-
   }
 
   .welcome {
@@ -14,11 +13,15 @@
   }
   
   .intro h1 {
-    font-size: 2.75rem;
+    font-size: 5vh;
   }
-
+/* work */
   .link {
     border-bottom: 3px solid var(--colorWhite);
+  }
+  .link:hover {
+    color:red;
+    transition: all 0.3s ease-in-out;
   }
 
   .icon {
@@ -28,7 +31,7 @@
     height: 2.6875rem;
   }
 
-  /* 404 */
+  /* 404 PAGE */
   .frawn {
     width: 50%;
     margin: 0 auto;
@@ -40,6 +43,7 @@
 
   .playground {
     display: inline-block;
+    font-size: 4vh;
     -webkit-transform: rotate(-8deg);
     -moz-transform: rotate(-8deg);
      -ms-transform: rotate(-8deg);

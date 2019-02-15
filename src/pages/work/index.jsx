@@ -1,9 +1,11 @@
 // Work.js
 
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Fullscreen from '../../components/fullscreen';
 import Wrapper from '../../components/wrapper';
+import Header from '../../components/header';
+import OutboundLink from '../../components/outbound-link';
 
 import styles from './work.module.css';
 // import {Helmet} from "react-helmet";
@@ -14,6 +16,8 @@ import styles from './work.module.css';
 const Work = () => (
   <div>
     <Fullscreen className={styles.work} firstItem>
+      <Header />
+
       <Wrapper>
         <h3>My work.</h3>
         <div className="work">
@@ -46,7 +50,7 @@ Internship at FirstAgenda. Display of the meeting landscape in Denmark 2018 Vers
 
           <div className="project quote">
             <h2 className="underline">
-              <Link to="/work/quote">Quote Generator</Link>
+              <OutboundLink to="https://frankrs-quote.surge.sh">Quote Generator</OutboundLink>
             </h2>
             <p>
 Uses
@@ -58,10 +62,9 @@ API to fetch content
           </div>
           <br />
 
-
           <div className="project wiki">
             <h2 className="underline">
-              <Link to="/work/wiki">Wikipedia Searcher</Link>
+              <OutboundLink to="https://frankrs-wiki.surge.sh">Wikipedia Searcher</OutboundLink>
             </h2>
           </div>
 

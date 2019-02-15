@@ -3,6 +3,7 @@
 import React from 'react';
 import ContentPage from '../../components/content-page';
 import Wrapper from '../../components/wrapper';
+import Header from '../../components/header';
 import Contact from '../../components/contact';
 
 import styles from './about.module.css';
@@ -18,6 +19,7 @@ import styles from './about.module.css';
 
 const About = () => (
   <div>
+    <Header />
     <ContentPage>
       <Wrapper>
         <div className={styles.about}>
@@ -42,8 +44,8 @@ I have always loved being creative and change the current paradigm.
               <p>Bootstrap, CSS, HTML, Sass</p>
               <h4>Javascript</h4>
               <p>Vanilla, jQuery, React</p>
-              <h4>Server</h4>
-              <p>MS SQL</p>
+              <h4>Database</h4>
+              <p>MS SQL, MongoDB, Firebase</p>
               <h4>Misc</h4>
               <p>Git, SQL, Node, C#, ASP .Net</p>
             </div>

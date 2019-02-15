@@ -13,24 +13,12 @@ import '../css/document.css';
 import '../css/typography.css';
 import styles from './index.module.css';
 
-// if ('serviceWorker' in navigator) {
-//   window.addEventListener('load', () => {
-//     navigator.serviceWorker.register('/static/sw.js').then(function(registration) {
-//       // Registration was successful
-//       console.log('ServiceWorker registration successful with scope: ', registration.scope);
-//     }, function(err) {
-//       // registration failed :(
-//       console.log('ServiceWorker registration failed: ', err);
-//     });
-//   });
-// }
-
 const IndexPage = () => (
   <div>
     <Header />
     <Fullscreen className={styles.intro} firstItem>
       <Wrapper>
-        <h1 className="welcome">
+        <h1>
           <Welcome />
           <br />
           <br />
@@ -52,13 +40,12 @@ const IndexPage = () => (
         <Some />
       </Wrapper>
     </Fullscreen>
-
   </div>
 );
 
 class Welcome extends React.Component {
   render() {
-    let time = '';
+    let time;
     const today = new Date();
     const currentHour = today.getHours();
 
@@ -71,6 +58,9 @@ class Welcome extends React.Component {
     } else {
       time = 'evening';
     }
+
+    // eslint-disable-next-line
+    console.log('%c Hire@FrankRS.dk ', 'font-weight: bold; font-size: 24px;color: red; ');
     return (
       <span className={styles.welcome}>
           Lovely

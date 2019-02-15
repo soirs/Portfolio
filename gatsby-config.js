@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Frank Richard Semakula',
-    url: 'https://frankrs.dk/',
+    title: 'Frank Richard Semakula | Portfolio',
+    siteUrl: 'https://frankrs.dk/',
     description: 'Frank is a frontend developer with a wide range of skills within web development and marketing.',
   },
   plugins: [
@@ -13,9 +13,11 @@ module.exports = {
         name: 'Frank Richard Semakula',
         short_name: 'F. Semakula',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
+        background_color: '#fff',
+        theme_color: '#fff',
+        display: 'standalone',
+        orientation: 'portrait',
+        icon: 'src/assets/favicon-32x32.png',
       },
     },
     {
@@ -41,7 +43,12 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        globPatterns: ['**/*.{js,jsx,jpg,html,css}'],
+      },
+    },
   ],
   // parser: 'babel-eslint',
   // parserOptions: {

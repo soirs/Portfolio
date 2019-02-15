@@ -6,9 +6,9 @@
   opacity: 1;
 }
 
-.contentPage a {
-  /* border-bottom: 1px solid; */
-}
+/* .contentPage a {
+  border-bottom: 1px solid;
+} */
 
 @media (--medium) {
   .content {
