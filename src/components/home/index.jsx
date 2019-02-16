@@ -1,25 +1,25 @@
 // home.js
 
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Icon from '../icon'
-import './Home.css'
+import Icon from '../icon';
+import './Home.css';
 
 class Welcome extends React.Component {
   render() {
-    let time = ''
-    const today = new Date()
-    const currentHour = today.getHours()
+    let time = '';
+    const today = new Date();
+    const currentHour = today.getHours();
 
     if (currentHour < 12) {
-      time = 'morning'
+      time = 'morning';
     } else if (currentHour < 18) {
-      time = 'afternoon'
+      time = 'afternoon';
     } else {
-      time = 'evening'
+      time = 'evening';
     }
-    return <p className="home__message-time">Lovely {time},</p>
+    return <p className="home__message-time">Lovely {time},</p>;
   }
 }
 
@@ -56,6 +56,6 @@ const Home = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Home
+export default Home;

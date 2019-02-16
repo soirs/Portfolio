@@ -1,13 +1,13 @@
 // Work.js
 
-import React from 'react'
+import React from 'react';
 // import { Link } from 'gatsby';
-import Fullscreen from '../../components/fullscreen'
-import Wrapper from '../../components/wrapper'
-import Header from '../../components/header'
-import OutboundLink from '../../components/outbound-link'
+import Fullscreen from '../../components/fullscreen';
+import Wrapper from '../../components/wrapper';
+import Header from '../../components/header';
+import OutboundLink from '../../components/outbound-link';
 
-import styles from './work.module.css'
+import styles from './work.module.css';
 // import {Helmet} from "react-helmet";
 
 // import projects from '../../projects/projects.js';
@@ -17,7 +17,6 @@ const Work = () => (
   <div>
     <Fullscreen className={styles.work} firstItem>
       <Header />
-
       <Wrapper>
         <h3>My work.</h3>
         <div className="work">
@@ -33,7 +32,7 @@ const Work = () => (
               Internship at FirstAgenda. Display of the meeting landscape in
               Denmark 2018 Version 1.0
             </p>
-            <p> </p>
+            <br />
           </div>
 
           <hr />
@@ -78,6 +77,6 @@ const Work = () => (
       </Wrapper>
     </Fullscreen>
   </div>
-)
+);
 
-export default Work
+export default Work;

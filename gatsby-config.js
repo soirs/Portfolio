@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Frank Richard Semakula | Portfolio',
     siteUrl: 'https://frankrs.dk/',
-    description: 'Frank is a frontend developer with a wide range of skills within web development and marketing.',
+    description:
+      'Frank is a frontend developer with a wide range of skills within web development and marketing.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -26,9 +27,9 @@ module.exports = {
         trackingId: 'UA-124489759-1',
         // Puts tracking script in the head instead of the body
         head: false,
-        // Setting this parameter is optional
+        // -v- Setting this parameter is optional
         anonymize: true,
-        // Setting this parameter is also optional
+        // -v- Setting this parameter is also optional
         respectDNT: true,
       },
     },
@@ -50,8 +51,8 @@ module.exports = {
       },
     },
   ],
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaVersion: 8, // optional, recommended 6+
-  },
+  // parser: 'babel-eslint',
+  // parserOptions: {
+  //   ecmaVersion: 8, // optional, recommended 6+
+  // },
 };

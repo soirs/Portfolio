@@ -22,20 +22,17 @@ const IndexPage = () => (
           <Welcome />
           <br />
           <br />
-       I´m a frontend web developer.
+          I´m a frontend web developer.
           <br />
           <br />
-          This is my
-          {' '}
-          <span className={styles.playground}>
-            playground.
-          </span>
+          This is my <span className={styles.playground}>playground.</span>
           <br />
           <br />
-       Here´s my
-          {' '}
-          <Link className={styles.link} to="/work/">work</Link>
-.
+          Here´s my{' '}
+          <Link className={styles.link} to="/work/">
+            work
+          </Link>
+          .
         </h1>
         <Some />
       </Wrapper>
@@ -60,18 +57,12 @@ class Welcome extends React.Component {
     }
 
     // eslint-disable-next-line
-    console.log('%c ---> Hire@FrankRS.dk ', 'font-weight: bold; font-size: 24px;color: red; ');
-    return (
-      <span className={styles.welcome}>
-          Lovely
-        {' '}
-        {time}
-        {' '}
-, I´m Frank.
-      </span>
+    console.log(
+      '%c ---> Hire@FrankRS.dk ',
+      'font-weight: bold; font-size: 24px;color: red; '
     );
+    return <span className={styles.welcome}>Lovely {time} , I´m Frank.</span>;
   }
 }
-
 
 export default IndexPage;

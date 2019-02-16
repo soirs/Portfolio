@@ -1,12 +1,12 @@
 // icon.js
 
-import React from 'react'
-import classNames from 'classnames'
+import React from 'react';
+import classNames from 'classnames';
 
-import styles from './icon.module.css'
+import styles from './icon.module.css';
 
 const Icon = ({ className, name }) => {
-  const src = require(`./svg/${name}.svg`)
+  const src = require(`./svg/${name}.svg`);
 
   return (
     <img
@@ -14,7 +14,7 @@ const Icon = ({ className, name }) => {
       className={classNames(styles.icon, className)}
       alt={`${name} icon to Frank Richard Semakula's ${name}`}
     />
-  )
-}
+  );
+};
 
-export default Icon
+export default Icon;

@@ -1,14 +1,14 @@
 /*
 eslint-disable react/no-danger
 */
-import React from 'react'
-import Helmet from 'react-helmet'
-import Header from './header'
-import Main from './Main'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Header from './header';
+import Main from './Main';
 
-import '../css/normalize.css'
-import '../css/document.css'
-import '../css/typography.css'
+import '../css/normalize.css';
+import '../css/document.css';
+import '../css/typography.css';
 
 export default ({ children, title, className = '' }) => [
   <Helmet
@@ -63,4 +63,4 @@ export default ({ children, title, className = '' }) => [
   <Main key="app-main" className={className}>
     {children}
   </Main>,
-]
+];

@@ -1,12 +1,12 @@
 // About.js
 
-import React from 'react'
-import ContentPage from '../../components/content-page'
-import Wrapper from '../../components/wrapper'
-import Header from '../../components/header'
-import Contact from '../../components/contact'
+import React from 'react';
+import ContentPage from '../../components/content-page';
+import Wrapper from '../../components/wrapper';
+import Header from '../../components/header';
+import Contact from '../../components/contact';
 
-import styles from './about.module.css'
+import styles from './about.module.css';
 // import {Helmet} from "react-helmet";
 // About.js
 
@@ -60,6 +60,6 @@ const About = () => (
       </Wrapper>
     </ContentPage>
   </div>
-)
+);
 
-export default About
+export default About;

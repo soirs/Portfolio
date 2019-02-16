@@ -1,9 +1,9 @@
 // Work.js
 
-import React from 'react'
-import './work.module.css'
+import React from 'react';
+import './work.module.css';
 // import {Helmet} from "react-helmet";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Work = () => (
   <div>
@@ -73,6 +73,6 @@ const Work = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Work
+export default Work;
