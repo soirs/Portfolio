@@ -4,10 +4,14 @@
     "browser": true,
     "node": true
   },
-  "extends": ["airbnb"],
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
   "settings": {
-      "import/core-modules": ["gatsby"]
-    },
+    "import/core-modules": ["gatsby"]
+  },
   "plugins": [
     "react",
     "jsx-a11y",
@@ -16,7 +20,9 @@
   "rules": {
     "arrow-parens": 0,
     "react/destructuring-assignment": 0,
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
     "global-require": [0],
     "max-len": [0],
     "import/extensions": 0,

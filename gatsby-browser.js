@@ -16,4 +16,4 @@
 //   }
 // };
 
-exports.registerServiceWorker = () => true;
+exports.registerServiceWorker = () => true

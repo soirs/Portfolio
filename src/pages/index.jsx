@@ -50,22 +50,23 @@ class Welcome extends React.Component {
     const currentHour = today.getHours();
 
     if (currentHour < 4) {
-      time = 'night';
+      time = 'night 🌌';
     } else if (currentHour < 12) {
-      time = 'morning';
+      time = 'morning 🌁🌅';
     } else if (currentHour < 18) {
-      time = 'afternoon';
-    } else {
-      time = 'evening';
+      time = 'afternoon 🌆 ';
+    } else if (currentHour < 22) {
+      time = 'evening 🌃';
     }
 
     // eslint-disable-next-line
-    console.log('%c Hire@FrankRS.dk ', 'font-weight: bold; font-size: 24px;color: red; ');
+    console.log('%c ---> Hire@FrankRS.dk ', 'font-weight: bold; font-size: 24px;color: red; ');
     return (
       <span className={styles.welcome}>
           Lovely
         {' '}
         {time}
+        {' '}
 , I´m Frank.
       </span>
     );

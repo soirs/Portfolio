@@ -1,18 +1,24 @@
 // components/contact/contact.js
 
-import React from 'react';
+import React from 'react'
 // import classNames from 'classnames';
 
-import Icon from '../icon';
-import OutboundLink from '../outbound-link';
+import Icon from '../icon'
+import OutboundLink from '../outbound-link'
 
-import styles from './contact.module.css';
+import styles from './contact.module.css'
 
 const Contact = () => (
   <div className={styles.contact}>
     <h1>Contact me:</h1>
     <p className={styles.email}>
-      <a href="mailto:Hello@frankrs.dk?subject=Hello%20!" className={styles.link}> hello@frankrs.dk</a>
+      <a
+        href="mailto:Hello@frankrs.dk?subject=Hello%20!"
+        className={styles.link}
+      >
+        {' '}
+        hello@frankrs.dk
+      </a>
     </p>
     <div className={styles.lineBreak} />
 
@@ -29,6 +35,6 @@ const Contact = () => (
       </li>
     </ul>
   </div>
-);
+)
 
-export default Contact;
+export default Contact

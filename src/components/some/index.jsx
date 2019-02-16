@@ -1,11 +1,11 @@
 // components/contact/contact.js
 
-import React from 'react';
+import React from 'react'
 
-import Icon from '../icon';
-import OutboundLink from '../outbound-link';
+import Icon from '../icon'
+import OutboundLink from '../outbound-link'
 
-import styles from './some.module.css';
+import styles from './some.module.css'
 
 const Some = () => (
   <div className={styles.some}>
@@ -27,6 +27,6 @@ const Some = () => (
       </li>
     </ul>
   </div>
-);
+)
 
-export default Some;
+export default Some

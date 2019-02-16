@@ -50,8 +50,8 @@ module.exports = {
       },
     },
   ],
-  // parser: 'babel-eslint',
-  // parserOptions: {
-  //   ecmaVersion: 8, // optional, recommended 6+
-  // },
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 8, // optional, recommended 6+
+  },
 };

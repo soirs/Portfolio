@@ -1,13 +1,13 @@
 // Work.js
 
-import React from 'react';
+import React from 'react'
 // import { Link } from 'gatsby';
-import Fullscreen from '../../components/fullscreen';
-import Wrapper from '../../components/wrapper';
-import Header from '../../components/header';
-import OutboundLink from '../../components/outbound-link';
+import Fullscreen from '../../components/fullscreen'
+import Wrapper from '../../components/wrapper'
+import Header from '../../components/header'
+import OutboundLink from '../../components/outbound-link'
 
-import styles from './work.module.css';
+import styles from './work.module.css'
 // import {Helmet} from "react-helmet";
 
 // import projects from '../../projects/projects.js';
@@ -26,18 +26,14 @@ const Work = () => (
           <div className="project som">
             <h2 className="underline">
               <a href="https://info.firstagenda.com/state-of-meetings">
-            State of Meetings
-
+                State of Meetings
               </a>
-
             </h2>
             <p>
-Internship at FirstAgenda. Display of the meeting landscape in Denmark 2018 Version 1.0
+              Internship at FirstAgenda. Display of the meeting landscape in
+              Denmark 2018 Version 1.0
             </p>
-            <p>
-              {' '}
-
-            </p>
+            <p> </p>
           </div>
 
           <hr />
@@ -45,33 +41,43 @@ Internship at FirstAgenda. Display of the meeting landscape in Denmark 2018 Vers
           <br />
 
           <div className="project movie">
-            <h2 className="underline"><a href="https://moviedb.frankrs.dk/">Movie Database</a></h2>
+            <h2 className="underline">
+              <a href="https://moviedb.frankrs.dk/">Movie Database</a>
+            </h2>
           </div>
 
           <div className="project quote">
             <h2 className="underline">
-              <OutboundLink to="https://frankrs-quote.surge.sh">Quote Generator</OutboundLink>
+              <OutboundLink to="https://frankrs-quote.surge.sh">
+                Quote Generator
+              </OutboundLink>
             </h2>
             <p>
-Uses
-              {' '}
-              <a href="https://www.quotesondesign.com" className="underline" target="_blank" rel="noopener noreferrer">QuotesOnDesign</a>
-              {' '}
-API to fetch content
+              Uses{' '}
+              <a
+                href="https://www.quotesondesign.com"
+                className="underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                QuotesOnDesign
+              </a>{' '}
+              API to fetch content
             </p>
           </div>
           <br />
 
           <div className="project wiki">
             <h2 className="underline">
-              <OutboundLink to="https://frankrs-wiki.surge.sh">Wikipedia Searcher</OutboundLink>
+              <OutboundLink to="https://frankrs-wiki.surge.sh">
+                Wikipedia Searcher
+              </OutboundLink>
             </h2>
           </div>
-
         </div>
       </Wrapper>
     </Fullscreen>
   </div>
-);
+)
 
-export default Work;
+export default Work

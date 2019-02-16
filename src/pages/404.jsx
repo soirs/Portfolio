@@ -24,13 +24,10 @@ const NotFoundPage = () => (
         <br />
         <br />
         <h2> Looks like a dead end.</h2>
-
         <p>
-Sadness.
-          {' '}
+          Sadness.
           <br />
-          {' '}
-Coffee´s on me.
+          Coffee´s on me.
         </p>
       </ContentPage>
     </Fullscreen>
