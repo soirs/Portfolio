@@ -7,7 +7,7 @@ import Fullscreen from '../components/fullscreen';
 import Wrapper from '../components/wrapper';
 import Some from '../components/some';
 import Header from '../components/header';
-// import layout from '../components/layouts/';
+
 import '../css/normalize.css';
 import '../css/document.css';
 import '../css/typography.css';
