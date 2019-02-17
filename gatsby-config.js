@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Frank Richard Semakula | Portfolio',
-    siteUrl: 'https://frankrs.dk/',
+    siteUrl: 'https://frankrs.adk/',
     description:
       'Frank is a frontend developer with a wide range of skills within web development and marketing.',
   },
