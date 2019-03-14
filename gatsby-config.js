@@ -12,7 +12,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Frank Richard Semakula',
-        short_name: 'F. Semakula',
+        short_name: 'Frank R. Semakula',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#fff',

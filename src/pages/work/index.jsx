@@ -41,7 +41,9 @@ const Work = () => (
 
           <div className="project movie">
             <h2 className="underline">
-              <a href="https://moviedb.frankrs.dk/">Movie Database</a>
+              <OutboundLink to="https://frankrs-moviedb.surge.sh/">
+                Movie Database
+              </OutboundLink>
             </h2>
           </div>
 

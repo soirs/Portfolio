@@ -7,14 +7,15 @@ import Fullscreen from '../components/fullscreen';
 import Wrapper from '../components/wrapper';
 import Some from '../components/some';
 import Header from '../components/header';
+import Meta from '../components/meta';
 
 import '../css/normalize.css';
 import '../css/document.css';
-import '../css/typography.css';
 import styles from './index.module.css';
 
-const IndexPage = () => (
+const IndexPage = ({ location }) => (
   <div>
+    <Meta location={location} />
     <Header />
     <Fullscreen className={styles.intro} firstItem>
       <Wrapper>

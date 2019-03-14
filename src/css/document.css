@@ -8,6 +8,10 @@
   font-family: "europa", "Avenir", Helvetica, Arial, sans-serif;
 }
 
+.gradient {
+  background: rgb(0,0,0);
+background: linear-gradient(65deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 40%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 80%, rgba(0,0,0,1) 80%, rgba(0,0,0,1) 100%);
+}
 /* *, *:before, *:after {
     box-sizing: border-box;
   } */
@@ -36,3 +40,4 @@
       color: var(--colorWhite);
       opacity: 1;
     }
+

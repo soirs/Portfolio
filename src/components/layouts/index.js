@@ -18,7 +18,7 @@ export default ({ children, title, className = '' }) => [
   >
     <meta charSet="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <title>{title}</title>
+    <title>Frank Richard Semakula | {title}</title>
 
     {/* Favicon stuff from realfavicongenerator.net */}
     <meta name="apple-mobile-web-app-title" content="frankrs.dk" />
