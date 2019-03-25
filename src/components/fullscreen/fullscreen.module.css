@@ -4,7 +4,7 @@
 
 .fullscreen {
     width: 100vw;
-    height: calc(100vh + var(--headerHeight));
+    height: calc(100vh);
     max-width: 100%;
     display: flex;
     align-items: center;

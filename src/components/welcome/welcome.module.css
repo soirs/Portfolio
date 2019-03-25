@@ -1,26 +1,30 @@
-/* index.module.css */
-
-@import '../css/variables.css';
-/* @import '../css/animate.css'; */
-
-.icon {
-    display: inline-block;
-    vertical-align: middle;
-    width: 2.6875rem;
-    height: 2.6875rem;
+.intro {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
 }
 
-/* 404 PAGE */
+.welcome {
+    color: grey;
+    transition: color 1.5s ease;
+}
 
-.frawn {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+.intro h1 {
+    font-size: 3.5vh;
+}
+
+/* work */
+
+.link {
+    border-bottom: 3px solid var(--colorWhite);
+}
+
+.link:hover {
+    color: red;
+    transition: all 0.3s ease-in-out;
 }
 
 .playground {
     display: inline-block;
-    font-size: 4vh;
     -webkit-transform: rotate(-8deg);
     -moz-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
