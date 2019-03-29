@@ -40,7 +40,7 @@ class Welcome extends Component {
         <Fullscreen className={styles.intro} firstItem>
           <Wrapper>
             {this.state.isLoading ? (
-              <p>Just a second</p>
+              <h3>Just a second</h3>
             ) : (
               <h1>
                 <span className={styles.welcome}>

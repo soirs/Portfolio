@@ -49,7 +49,7 @@ const Work = () => (
 
           <div className="project quote">
             <h2 className="underline">
-              <OutboundLink to="https://frankrs-quote.surge.sh">
+              <OutboundLink to="https://frankrs-quote-generator.netlify.com/">
                 Quote Generator
               </OutboundLink>
             </h2>
@@ -70,7 +70,7 @@ const Work = () => (
 
           <div className="project wiki">
             <h2 className="underline">
-              <OutboundLink to="https://frankrs-wiki.surge.sh">
+              <OutboundLink to="https://frankrs-wikipedia-searcher.netlify.com/">
                 Wikipedia Searcher
               </OutboundLink>
             </h2>
