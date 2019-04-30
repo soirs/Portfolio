@@ -1,8 +1,6 @@
 // components/header/header.js
-
 import React from 'react';
 import { Link } from 'gatsby';
-
 import styles from './header.module.css';
 import Wrapper from '../wrapper';
 

@@ -5,7 +5,7 @@
 }
 
 .border__left {
-  border-left: 10px solid var(--colorBlack);
+  /* border-left: 10px solid var(--colorBlack); */
   border-bottom: 10px solid var(--colorBlack);
   padding-bottom: 2px;
 }

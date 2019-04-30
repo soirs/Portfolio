@@ -14,8 +14,3 @@
     composes: fullscreen;
     /* margin-top: calc(var(--headerHeight) * -1); */
   }
-
-
-@media only screen and (max-width:31.25em) { 
-	.fullscreen {margin-top: 200px;}
-}

@@ -1,6 +1,5 @@
 // pages/index.js
 /* eslint-disable */
-
 import React from 'react';
 
 import Header from '../components/header';
@@ -10,9 +9,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/pro-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
-// @fortawesome/pro-regular-svg-icons
-// @fortawesome/pro-light-svg-icons
 
 import '../css/normalize.css';
 import '../css/document.css';
