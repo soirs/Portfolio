@@ -25,11 +25,11 @@
 
 .playground {
     display: inline-block;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    -o-transform: rotate(-8deg);
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
     transition: all 1.5s ease;
 }
 

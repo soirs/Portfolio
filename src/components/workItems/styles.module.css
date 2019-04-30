@@ -1,0 +1,20 @@
+/* Work.module.css */
+
+.item {
+  padding-top: 20px;
+}
+
+.border__left {
+  border-left: 10px solid var(--colorBlack);
+  border-bottom: 10px solid var(--colorBlack);
+  padding-bottom: 2px;
+}
+
+.padding__left {
+  padding-left: 2%;
+}
+
+.link__hover:hover {
+  color: red;
+  font-weight: 800;
+}

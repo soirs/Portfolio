@@ -10,9 +10,6 @@ import OutboundLink from '../../components/outbound-link';
 import styles from './work.module.css';
 // import {Helmet} from "react-helmet";
 
-// import projects from '../../projects/projects.js';
-// {projects.map(project =>   )}
-
 const Work = () => (
   <div>
     <Fullscreen className={styles.work} firstItem>
