@@ -1,13 +1,10 @@
 import React from 'react';
-// import Fullscreen from '../../components/fullscreen';
 import Wrapper from '../../components/wrapper';
 import Header from '../../components/header';
 import WorkItems from '../../components/workItems';
 import projects from '../../data/projects';
 import styles from './work.module.css';
 import ContentPage from '../../components/content-page';
-
-// import OutboundLink from '../../components/outbound-link';
 
 const Work = () => {
   return (
