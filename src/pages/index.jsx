@@ -22,8 +22,11 @@ const IndexPage = ({ location }) => (
     <Header />
     <Welcome />
     {console.log(
-      '%c ---> Hire@FrankRS.dk ',
-      'font-weight: bold; font-size: 24px;color: red; '
+      '%c|· Hire@FrankRS.dk ·|',
+      `font-weight: bold;
+       font-size: 24px;
+       color: red;
+        background-color: white;`
     )}
   </div>
 );

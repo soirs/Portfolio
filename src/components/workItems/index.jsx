@@ -44,14 +44,6 @@ const WorkItems = ({ project }) => (
       </div>
     </div>
   </div>
-  //   <Wrapper>
-  //   <div className={styles.inner} style={{ backgroundImage: `url(${project.cover})` }}>
-  //     <div className={styles.content}>
-  //       <h2>{project.title}</h2>
-  //       <p>{project.description}</p>
-  //     </div>
-  //   </div>
-  // </Wrapper>
 );
 
 export default WorkItems;
