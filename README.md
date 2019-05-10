@@ -4,8 +4,10 @@
   </a>
 </p>
 <h1 align="center">
-My personal Portfolio based on >> Gatsby's default starter  <<
+My Portfolio based on >> Gatsby's default starter  <<
 </h1>
+
+<hr>
 
 Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
 
