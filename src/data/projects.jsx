@@ -2,13 +2,13 @@ const projects = [
   // FrankOverflow
   {
     className: `frankoverflow`,
-    description: `Q&A app made with the MERN stack; MongoDB, Express, React, Node. Hosted on Heroku with MongoDB Atlas as DB`,
+    description: `Q&A app made with the MERN stack; MongoDB, Express, React, Node. Hosted on Heroku with MongoDB Atlas as Database. Still a work in progress`,
     links: {
       website: `https://franksemakula-frameworks.herokuapp.com/`,
       github: `https://github.com/soirs/sweetpumpkins`,
     },
     slug: `frankoverflow`,
-    title: `Q&A app`,
+    title: `Q&A app(Work in progress)`,
     colors: {
       background: `var(--colorBlack)`,
       light: true,
