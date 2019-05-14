@@ -48,11 +48,11 @@ const About = () => (
               <h4>Presentation</h4>
               <p>Bootstrap, CSS, HTML, Sass</p>
               <h4>Javascript</h4>
-              <p>Vanilla, jQuery, React</p>
+              <p>Vanilla, React, GatsbyJS, jQuery</p>
               <h4>Database</h4>
               <p>MS SQL, MongoDB, Firebase</p>
               <h4>Misc</h4>
-              <p>Git, SQL, Node, C#, ASP .Net</p>
+              <p>Git, SQL, Node, C#, ASP.Net</p>
             </div>
           </aside>
         </div>

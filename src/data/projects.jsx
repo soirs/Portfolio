@@ -1,4 +1,19 @@
 const projects = [
+  // Portfolip
+  {
+    className: `portfolio`,
+    description: `This very website is made in GatsbyJS. It is deployed on Netlify for quick deployment. It uses Google Analytics, FontAwesome and is my primary playground for when I want to try new things.`,
+    links: {
+      website: `https://frankrs.dk`,
+      github: `https://github.com/soirs/Portfolio`,
+    },
+    slug: `portfolio`,
+    title: `This portfolio`,
+    colors: {
+      background: `var(--colorBlack)`,
+      light: true,
+    },
+  },
   // FrankOverflow
   {
     className: `frankoverflow`,
